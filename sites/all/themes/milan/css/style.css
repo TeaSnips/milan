@@ -1,24 +1,17 @@
-body{
-  margin: 0 0 auto;
+
+.view-content{
+  align-content: center;
 }
 table{
-  display: flex;
   border-spacing: 10px;
   border-collapse: separate;
 }
 
-.view-content{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;;
-  align-items: baseline;
-}
 
 table td[class*="col-"], table th[class*="col-"]{
   margin: 5px;
-  float: left;
-  flex: 1 1 auto;
+  align-content: center;
+
 }
 #navbar{
   min-width: 100%;
@@ -60,6 +53,11 @@ nav{
   top: 0;
   left:0;
   z-index: 3;
+  text-align: right;
+  }
+  .user-menu a{
+    color: #fff;
+    padding-right: 10px;
   }
   .projekti .naslov {
       position:relative;
@@ -82,24 +80,79 @@ nav{
   }
   .projekti:hover img{
       box-shadow: 0 0 10px #424242;
-
   }
 
-article{
-  align-content: center;
-}
 .o_nama{
   padding:0 15% 0 15%;
   text-align:justify;
   font-size: 16px;
 }
 .slika1 img{
-  width:400px;
-  height: 300px;
+  width:320px;
+  height: 240px;
 }
 .proizvodi{
-  width: 420px;
+  width: 320px;
   height: 500px;
-  align-content: left;
+}
 
+.proizvodi .naslov{
+  position:relative;
+  top: 240px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.naslov{
+  padding-left: 10px;
+}
+
+.page-header{
+  background-color: #f5f5f5;
+  width: 100%;
+  text-align: center;
+}
+
+.node-projekti .field-name-field-slika,
+.node-proizvodi .field-name-field-slika{
+  float: right;
+  width:40%;
+  margin-left: 10%;
+}
+
+#first-time{
+  visibility: hidden;
+}
+
+.view-id-slider .flexslider{
+  width: 50%;
+  float: right;
+  margin-right: 20px;
+}
+.node-projekti .field-name-body,
+.node-proizvodi .field-name-body{
+/*  float: left;*/
+  margin-top: 5%;
+  /*width:50%;*/
+}
+ .block-system .node-proizvodi,
+ .block-system .node-projekti{
+  /*float: left;*/
+  width: 50%;
+}
+#block-views-slider-block-1 .view-slider{
+  float: right;
+
+
+}
+#user-login{
+  width: 30%;
+}
+.views-view-grid{
+  margin-left: 5%;
+  margin-right: 5%;
 }

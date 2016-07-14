@@ -18,3 +18,9 @@ regions[footer]         = 'Footer'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+
+
+; JavaScript
+; --------------
+scripts[] = 'js/slick-master/slick/slick.js'
+scripts[] = 'js/slick-master/slick/slick.min.js'
