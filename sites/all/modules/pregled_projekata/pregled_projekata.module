@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pregled_projekata feature.
+ */
+
+include_once 'pregled_projekata.features.inc';

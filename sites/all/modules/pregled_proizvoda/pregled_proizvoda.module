@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pregled_proizvoda feature.
+ */
+
+include_once 'pregled_proizvoda.features.inc';

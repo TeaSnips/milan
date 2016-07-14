@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the glavno feature.
+ */
+
+include_once 'glavno.features.inc';
