@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Projekti feature.
+ */
+
+include_once 'projekti.features.inc';
