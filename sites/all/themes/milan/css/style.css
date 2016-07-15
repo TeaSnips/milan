@@ -117,12 +117,12 @@ nav{
   text-align: center;
 }
 
-.node-projekti .field-name-field-slika,
+/*.node-projekti .field-name-field-slika,
 .node-proizvodi .field-name-field-slika{
   float: right;
   width:40%;
   margin-left: 10%;
-}
+}*/
 
 #first-time{
   visibility: hidden;
@@ -131,28 +131,52 @@ nav{
 .view-id-slider .flexslider{
   width: 50%;
   float: right;
+  margin-top: -5%;
   margin-right: 20px;
+
 }
 .node-projekti .field-name-body,
 .node-proizvodi .field-name-body{
-/*  float: left;*/
+  float: left;
+  margin-right: 5%;
   margin-top: 5%;
   /*width:50%;*/
 }
  .block-system .node-proizvodi,
  .block-system .node-projekti{
-  /*float: left;*/
+  float: left;
   width: 50%;
 }
-#block-views-slider-block-1 .view-slider{
+/*#block-views-slider-block-1 .view-slider{
   float: right;
-
-
-}
+}*/
 #user-login{
   width: 30%;
+  margin-left: 35%;
+}
+#user-login button{
+  margin-left: 40%;
 }
 .views-view-grid{
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.field-name-field-mapa{
+  float: right;
+  margin-top: -5%;
+  margin-right: 5%
+}
+.node-article{
+  margin-left: 25%;
+}
+
+.footer{
+  background-color: #f5f5f5;
+  text-align: center;
+
+}
+
+block-system-powered-by{
+  text-align: center;
 }
